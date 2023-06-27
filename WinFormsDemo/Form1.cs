@@ -16,5 +16,10 @@ namespace WinFormsDemo
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(text: $"Hello {textBox1.Text} {textBox2.Text}");
+        }
     }
 }
